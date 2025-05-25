@@ -1,0 +1,53 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: postgres
+  - changeSet:
+      id: create_subscriptions_table
+      author: seva
+      changes:
+        - createTable:
+            tableName: subscriptions
+            schemaName: public
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_subscriptions_user
+                    references: users(id)
+                    deleteCascade: true
+              - column:
+                  name: service_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_subscriptions_service
+                    references: subscription_providers(id)
+                    deleteCascade: true
+              - column:
+                  name: start_date
+                  type: timestamp
+                  defaultValueComputed: CURRENT_TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: end_date
+                  type: timestamp
+              - column:
+                  name: active
+                  type: boolean
+                  defaultValueBoolean: true
+
+        - addUniqueConstraint:
+            tableName: subscriptions
+            columnNames: user_id, service_id
+            constraintName: uk_subscriptions_user_service

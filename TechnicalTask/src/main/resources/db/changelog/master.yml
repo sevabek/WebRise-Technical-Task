@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/changeset/db.changelog-1.yml
+  - include:
+      file: classpath:/db/changelog/changeset/db.changelog-2.yml
+  - include:
+      file: classpath:/db/changelog/changeset/db.changelog-3.yml
+  - include:
+      file: classpath:/db/changelog/changeset/db.changelog-4-insert_initial_data.sql

@@ -1,0 +1,129 @@
+2025-05-25 01:01:18 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 63808 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:01:18 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:01:18 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:01:23 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Started TechnicalTaskApplication in 5.484 seconds (process running for 6.222)
+2025-05-25 01:29:56 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionIntegrationTest - Starting SubscriptionIntegrationTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:29:56 [main] DEBUG ru.webrise.technicaltask.integration.SubscriptionIntegrationTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:29:56 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionIntegrationTest - The following 1 profile is active: "postgres"
+2025-05-25 01:30:01 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionIntegrationTest - Started SubscriptionIntegrationTest in 5.293 seconds (process running for 10.229)
+2025-05-25 01:30:01 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to save new subscription for user ID: 2
+2025-05-25 01:30:01 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 2
+2025-05-25 01:30:02 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionProviderService - Fetching subscription provider info for ID: 3
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully saved subscription with ID: 11 for user ID: 2
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to update subscription ID: 1 for user ID: 1
+2025-05-25 01:30:02 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 1
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully updated subscription ID: 1 for user ID: 1
+2025-05-25 01:30:02 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching subscriptions for user ID: 1
+2025-05-25 01:30:02 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 1 subscriptions for user ID: 1
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to delete subscription ID: 1 for user ID: 1
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully deleted subscription ID: 1 for user ID: 1
+2025-05-25 01:30:02 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to delete subscription ID: 999 for user ID: 1
+2025-05-25 01:30:02 [main] ERROR ru.webrise.technicaltask.services.SubscriptionService - Failed to update subscription: subscription ID: 999 not found for user ID: 1 during deletion
+2025-05-25 01:30:04 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionProviderIntegrationTest - Starting SubscriptionProviderIntegrationTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:04 [main] DEBUG ru.webrise.technicaltask.integration.SubscriptionProviderIntegrationTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:04 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionProviderIntegrationTest - The following 1 profile is active: "postgres"
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.integration.SubscriptionProviderIntegrationTest - Started SubscriptionProviderIntegrationTest in 1.159 seconds (process running for 14.437)
+2025-05-25 01:30:05 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionProviderService - Fetching subscription provider info for ID: 1
+2025-05-25 01:30:05 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionProviderService - Fetching subscription provider info for ID: 999
+2025-05-25 01:30:05 [main] ERROR ru.webrise.technicaltask.services.SubscriptionProviderService - Failed to fetch provider: provider with ID 999 not found
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to save new subscription provider with name: New Streaming Service
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully saved new subscription provider with ID: 6
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to update subscription provider with ID: 1
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully updated subscription provider with ID: 1
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to update subscription provider with ID: 999
+2025-05-25 01:30:05 [main] ERROR ru.webrise.technicaltask.services.SubscriptionProviderService - Failed to update provider: provider with ID 999 not found
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to delete subscription provider with ID: 2
+2025-05-25 01:30:05 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully deleted subscription provider with ID: 2
+2025-05-25 01:30:07 [main] INFO  ru.webrise.technicaltask.integration.TopSubscriptionsIntegrationTest - Starting TopSubscriptionsIntegrationTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:07 [main] DEBUG ru.webrise.technicaltask.integration.TopSubscriptionsIntegrationTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:07 [main] INFO  ru.webrise.technicaltask.integration.TopSubscriptionsIntegrationTest - The following 1 profile is active: "postgres"
+2025-05-25 01:30:08 [main] INFO  ru.webrise.technicaltask.integration.TopSubscriptionsIntegrationTest - Started TopSubscriptionsIntegrationTest in 1.014 seconds (process running for 17.528)
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching top 5 subscriptions
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 5 top subscriptions
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching top 3 subscriptions
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 3 top subscriptions
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching top 2 subscriptions
+2025-05-25 01:30:08 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 2 top subscriptions
+2025-05-25 01:30:10 [main] INFO  ru.webrise.technicaltask.integration.UserIntegrationTest - Starting UserIntegrationTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:10 [main] DEBUG ru.webrise.technicaltask.integration.UserIntegrationTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:10 [main] INFO  ru.webrise.technicaltask.integration.UserIntegrationTest - The following 1 profile is active: "postgres"
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.integration.UserIntegrationTest - Started UserIntegrationTest in 1.026 seconds (process running for 20.527)
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to create new user with username: john_doe14
+2025-05-25 01:30:11 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionProviderService - Fetching subscription provider info for ID: 3
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully created user with ID: 4 and 1 subscriptions
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to create new user with username: john_doe14
+2025-05-25 01:30:11 [main] ERROR ru.webrise.technicaltask.services.UserService - Failed to save user: user with username 'john_doe14' already exists
+2025-05-25 01:30:11 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 1
+2025-05-25 01:30:11 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 999
+2025-05-25 01:30:11 [main] ERROR ru.webrise.technicaltask.services.UserService - User with ID 999 not found
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to update user with ID: 1
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully updated user with ID: 1
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to delete user with ID: 1
+2025-05-25 01:30:11 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully deleted user with ID: 1
+2025-05-25 01:30:12 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionControllerTest - Starting SubscriptionControllerTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:12 [main] DEBUG ru.webrise.technicaltask.unit.controllers.SubscriptionControllerTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:12 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionControllerTest - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:30:12 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionControllerTest - Started SubscriptionControllerTest in 0.59 seconds (process running for 21.561)
+2025-05-25 01:30:12 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionProviderControllerTest - Starting SubscriptionProviderControllerTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:12 [main] DEBUG ru.webrise.technicaltask.unit.controllers.SubscriptionProviderControllerTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:12 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionProviderControllerTest - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.SubscriptionProviderControllerTest - Started SubscriptionProviderControllerTest in 0.476 seconds (process running for 22.229)
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.TopSubscriptionsControllerTest - Starting TopSubscriptionsControllerTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:13 [main] DEBUG ru.webrise.technicaltask.unit.controllers.TopSubscriptionsControllerTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.TopSubscriptionsControllerTest - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.TopSubscriptionsControllerTest - Started TopSubscriptionsControllerTest in 0.302 seconds (process running for 22.635)
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.UserControllerTest - Starting UserControllerTest using Java 17.0.14 with PID 66537 (started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:30:13 [main] DEBUG ru.webrise.technicaltask.unit.controllers.UserControllerTest - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:30:13 [main] INFO  ru.webrise.technicaltask.unit.controllers.UserControllerTest - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.unit.controllers.UserControllerTest - Started UserControllerTest in 0.343 seconds (process running for 23.034)
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to delete subscription provider with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully deleted subscription provider with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to update subscription provider with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully updated subscription provider with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to update subscription provider with ID: 999
+2025-05-25 01:30:14 [main] ERROR ru.webrise.technicaltask.services.SubscriptionProviderService - Failed to update provider: provider with ID 999 not found
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionProviderService - Fetching subscription provider info for ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to save new subscription provider with name: New Provider
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Successfully saved new subscription provider with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionProviderService - Attempting to save new subscription provider with name: Existing Provider
+2025-05-25 01:30:14 [main] ERROR ru.webrise.technicaltask.services.SubscriptionProviderService - Failed to save provider: provider with name 'Existing Provider' already exists
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to save new subscription for user ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully saved subscription with ID: 3 for user ID: 1
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching subscriptions for user ID: 1
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 2 subscriptions for user ID: 1
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Fetching top 3 subscriptions
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.SubscriptionService - Found 3 top subscriptions
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to update subscription ID: 2 for user ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully updated subscription ID: 2 for user ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to save new subscription for user ID: 1
+2025-05-25 01:30:14 [main] ERROR ru.webrise.technicaltask.services.SubscriptionService - Failed to create subscription: subscription with service_id 2 and user_id 1 already exists
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Attempting to delete subscription ID: 2 for user ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.SubscriptionService - Successfully deleted subscription ID: 2 for user ID: 1
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to update user with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully updated user with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to create new user with username: testuser
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully created user with ID: 1 and 1 subscriptions
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to create new user with username: testuser
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully created user with ID: 1 without subscriptions
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Attempting to delete user with ID: 1
+2025-05-25 01:30:14 [main] INFO  ru.webrise.technicaltask.services.UserService - Successfully deleted user with ID: 1
+2025-05-25 01:30:14 [main] DEBUG ru.webrise.technicaltask.services.UserService - Fetching user info for ID: 1
+2025-05-25 01:30:14 [main] ERROR ru.webrise.technicaltask.services.UserService - User with ID 1 not found
+2025-05-25 01:31:31 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 67846 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 01:31:31 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 01:31:31 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 01:31:36 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Started TechnicalTaskApplication in 5.534 seconds (process running for 6.257)
+2025-05-25 02:13:20 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 80543 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 02:13:20 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 02:13:20 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 02:14:24 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 80848 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 02:14:24 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 02:14:24 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 02:25:26 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 86001 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 02:25:26 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 02:25:26 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 02:33:46 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Starting TechnicalTaskApplication using Java 17.0.14 with PID 89389 (/media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask/target/classes started by seva in /media/seva/Новый том/Linux Working Dir/Technical Task WebRise/TechnicalTask)
+2025-05-25 02:33:46 [main] DEBUG ru.webrise.technicaltask.TechnicalTaskApplication - Running with Spring Boot v3.3.11, Spring v6.1.19
+2025-05-25 02:33:46 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - The following 2 profiles are active: "postgres", "liquibaseMigration"
+2025-05-25 02:33:51 [main] INFO  ru.webrise.technicaltask.TechnicalTaskApplication - Started TechnicalTaskApplication in 5.672 seconds (process running for 6.536)
