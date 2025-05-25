@@ -21,7 +21,7 @@ services:
         - pg_isready -U postgres
       interval: 1s
       timeout: 3s
-      retries: 105
+      retries: 10
 
 volumes:
   postgresdb:
