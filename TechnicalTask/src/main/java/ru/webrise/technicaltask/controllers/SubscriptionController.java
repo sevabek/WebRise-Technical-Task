@@ -30,7 +30,7 @@ public class SubscriptionController {
     private final BindingResultErrorHandler bindingResultErrorHandler;
 
     /**
-     * Добавляет новую подписку для указанного2 пользователя.
+     * Добавляет новую подписку для указанного пользователя.
      *
      * @param userId Идентификатор пользователя
      * @param subscriptionDTO DTO с данными новой подписки
